@@ -6,7 +6,7 @@ from sklearn.utils import shuffle
 from alexnet import AlexNet
 from keras.datasets import cifar10
 
-nb_classes = 43
+nb_classes = 10
 EPOCHS = 10
 BATCH_SIZE = 128
 learning_rate = 0.001
